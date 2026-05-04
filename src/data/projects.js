@@ -16,7 +16,7 @@ export const projects = [
     bgColor: 'rgb(128, 0, 128)',
     textColor: '#fff',
     year: '2023',
-    image: null,
+    image: 'image: https://imgur.com/623af84a-0061-4636-af9c-412318e2f506,
     fullDescription: 'Professional video recording and editing projects showcasing my technical skills in multimedia production. This includes footage capture, post-production editing, color grading, and final output optimization for various platforms.'
   },
   {
