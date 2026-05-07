@@ -58,7 +58,34 @@ export default function ProjectDetail() {
             </div>
           </div>
         </div>
-      </section>
+      </section>{project.id === 'digital-footprint' && (
+        <section className="linkedin-articles section">
+          <div className="container">
+            <h2>LinkedIn Articles</h2>
+            <p className="articles-description">Written for the Online Content Development module – each piece reached thousands of impressions, connecting with professionals across LinkedIn.</p>
+            <div className="articles-grid">
+              <div className="article-card">
+                <div className="article-impressions">1,556</div>
+                <div className="article-label">impressions</div>
+                <h3>5 Things I Like About IADT</h3>
+                <p className="article-category">Online Content Development</p>
+              </div>
+              <div className="article-card">
+                <div className="article-impressions">1,678</div>
+                <div className="article-label">impressions</div>
+                <h3>What is Digital Marketing?</h3>
+                <p className="article-category">Online Content Development</p>
+              </div>
+              <div className="article-card">
+                <div className="article-impressions">2,139</div>
+                <div className="article-label">impressions</div>
+                <h3>How to Create Digital Content</h3>
+                <p className="article-category">Online Content Development</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="project-cta section">
         <div className="container">
