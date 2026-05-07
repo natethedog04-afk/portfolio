@@ -6,8 +6,8 @@ export const projects = [
     bgColor: 'rgb(112, 113, 161)',
     textColor: '#000',
     year: '2023 - present',
-    image: 'image: https://i.imgur.com/VAJsDEB.png',
-    fullDescription: 'A comprehensive personal branding project showcasing my digital presence and portfolio. This project demonstrates my ability to create cohesive visual experiences across multiple platforms and mediums.'
+    image: 'https://i.imgur.com/VAJsDEB.png',
+    fullDescription: 'As a digital marketing student, building a strong professional network and personal brand can be challenging in an increasingly competitive landscape. Many students struggle to showcase their skills, gain visibility, and connect with industry professionals early in their careers. Without the right platform, opportunities for collaboration, mentorship, and career growth can be limited, making it harder to stand out and develop a clear professional identity. Traditional methods of networking often lack scalability, leaving students unsure of how to effectively position themselves within the digital marketing industry.'
   },
   {
     id: 'work-experience',
@@ -16,7 +16,7 @@ export const projects = [
     bgColor: 'rgb(128, 0, 128)',
     textColor: '#fff',
     year: '2023',
-    image: 'image: https://imgur.com/623af84a-0061-4636-af9c-412318e2f506,
+    image: null,
     fullDescription: 'Professional video recording and editing projects showcasing my technical skills in multimedia production. This includes footage capture, post-production editing, color grading, and final output optimization for various platforms.'
   },
   {
