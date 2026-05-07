@@ -6,8 +6,7 @@ export const projects = [
     bgColor: 'rgb(112, 113, 161)',
     textColor: '#000',
     year: '2023 - present',
-    image: 'image: https://i.imgur.com/VAJsDEB.png',,
-    fullDescription: 'A comprehensive personal branding project showcasing my digital presence and portfolio. This project demonstrates my ability to create cohesive visual experiences across multiple platforms and mediums.'
+ update-portfolio
   },
   {
     id: 'work-experience',
