@@ -101,4 +101,26 @@
   .cta-description {
     font-size: 16px;
   }
+}.home-bio {
+  padding: 60px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bio-text {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .home-bio {
+    padding: 40px 0;
+  }
+
+  .bio-text {
+    font-size: 16px;
+  }
 }
