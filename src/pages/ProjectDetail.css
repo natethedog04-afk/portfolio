@@ -183,7 +183,26 @@
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   letter-spacing: 0.3px;
-}.article-card {
+}.articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .redbull-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .redbull-section h2 {
+    font-size: 28px;
+  }
+
+  .video-wrapper {
+    width: 100%;
+  }
+
+  .video-wrapper iframe {
+    height: 250px;
+  }.article-card {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
