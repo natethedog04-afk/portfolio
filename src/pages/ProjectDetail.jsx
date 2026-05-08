@@ -177,4 +177,18 @@ export default function ProjectDetail() {
               <h2>The Project Story</h2>
               <p>This project was a true collaboration with Loris, Sam, and Michael, where we worked together seamlessly to produce a professional podcast and presentation. We had the privilege of recording in a fully equipped professional studio at college, complete with Rode microphones and a proper podcast setup that ensured high-quality audio throughout our production.</p>
 
-              <p>I was genuinely delighted when we received the Ferrari case study topic
+              <p>I was genuinely delighted when we received the Ferrari case study topic because I have a passion for cars, and the Ferrari F8 Tributo is my absolute favorite. It's a car I hope to own one day, so diving deep into its design, performance, and legacy was not just a project requirement—it was a personal passion project. To make the presentation even more special, I wore a pink Ferrari bomber jacket over formal wear (dress shirt and trousers) to my presentation. The fake Ferrari board was delighted with the outfit choice, and it added a memorable personal touch to our case study delivery.</p>
+            </div>
+          </section>
+        </>
+      )}
+
+      <section className="project-cta section">
+        <div className="container">
+          <h2>Interested in working together?</h2>
+          <Link to="/contact" className="cta-button">Get in touch</Link>
+        </div>
+      </section>
+    </main>
+  )
+}
