@@ -183,6 +183,45 @@
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   letter-spacing: 0.3px;
+}.article-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+}
+
+.redbull-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.redbull-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.redbull-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.redbull-text p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+}
+
+.video-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.video-wrapper iframe {
+  display: block;
 }
 
 @media (max-width: 768px) {
