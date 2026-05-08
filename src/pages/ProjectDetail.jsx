@@ -60,6 +60,146 @@ export default function ProjectDetail() {
         </div>
       </section>
 
+      {project.id === 'digital-footprint' && (
+        <>
+          <section className="linkedin-articles section">
+            <div className="container">
+              <h2>LinkedIn Articles</h2>
+              <p className="articles-description">Written for the Online Content Development module – each piece reached thousands of impressions, connecting with professionals across LinkedIn.</p>
+              <div className="articles-grid">
+                <a href="https://www.linkedin.com/pulse/5-things-i-like-iadt-nathan-lawless-7ivfe?trackingId=wOwPXLmYShOZHzM64tC%2FXw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BqC9odIrCRsaznB46U3iTqg%3D%3D" target="_blank" rel="noopener noreferrer" className="article-card">
+                  <div className="article-impressions">1,556</div>
+                  <div className="article-label">impressions</div>
+                  <h3>5 Things I Like About IADT</h3>
+                  <p className="article-category">Online Content Development</p>
+                </a>
+                <a href="https://www.linkedin.com/pulse/what-digital-marketing-nathan-lawless-4twie?trackingId=wOwPXLmYShOZHzM64tC%2FXw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BqC9odIrCRsaznB46U3iTqg%3D%3D" target="_blank" rel="noopener noreferrer" className="article-card">
+                  <div className="article-impressions">1,678</div>
+                  <div className="article-label">impressions</div>
+                  <h3>What is Digital Marketing?</h3>
+                  <p className="article-category">Online Content Development</p>
+                </a>
+                <a href="https://www.linkedin.com/pulse/how-create-digital-content-nathan-lawless-kpc4e?trackingId=wOwPXLmYShOZHzM64tC%2FXw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BqC9odIrCRsaznB46U3iTqg%3D%3D" target="_blank" rel="noopener noreferrer" className="article-card">
+                  <div className="article-impressions">2,139</div>
+                  <div className="article-label">impressions</div>
+                  <h3>How to Create Digital Content</h3>
+                  <p className="article-category">Online Content Development</p>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section className="redbull-section section">
+            <div className="container">
+              <div className="redbull-content">
+                <div className="redbull-text">
+                  <h2>Red Bull — Advertisement</h2>
+                  <p>A video advertisement produced for the Marketing module, created to capture the energy and identity of the Red Bull brand.</p>
+                </div>
+                <div className="video-wrapper">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/Dhp5zqQ1-PQ"
+                    title="Red Bull Advertisement"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+        </>
+      )}
+
+      {project.id === 'work-experience' && (
+        <>
+          <section className="production-process section">
+            <div className="container">
+              <h2>Production Process</h2>
+              <div className="process-content">
+                <p>This project involved comprehensive video production and editing. We utilized professional DJI cameras and drones to capture dynamic aerial shots and cinematic footage, providing unique perspectives and high-quality visuals. All raw footage was then meticulously edited using CapCut, allowing for precise color grading, transitions, and effects to create a polished final product that captures the energy and essence of the content.</p>
+
+                <div className="instagram-card-section">
+                  <a href="https://www.instagram.com/_kassdiarra/" target="_blank" rel="noopener noreferrer" className="instagram-card">
+                    <div className="instagram-content">
+                      <h3>@_kassdiarra</h3>
+                      <p>Instagram Profile</p>
+                      <span className="instagram-link-arrow">Visit Profile →</span>
+                    </div>
+                  </a>
+                  <a href="https://www.instagram.com/rawgymsdublin/" target="_blank" rel="noopener noreferrer" className="instagram-card">
+                    <div className="instagram-content">
+                      <h3>@rawgymsdublin</h3>
+                      <p>Instagram Profile</p>
+                      <span className="instagram-link-arrow">Visit Profile →</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="raw-gyms-section section">
+            <div className="container">
+              <h2>Raw Gyms Production</h2>
+              <p>I recorded and produced content showcasing personal trainers demonstrating exercises and providing training tips across multiple Raw Gyms locations. This included facilities in Donnybrook and Sandyford in Dublin, as well as The Fitness Habit in Monaghan, and Avena Leisure in Sligo. Beyond video production, I also contributed to renovations and maintenance efforts across all gym locations, combining technical filmmaking with hands-on facility support.</p>
+            </div>
+          </section>
+        </>
+      )}
+
+      {project.id === 'future-plan' && (
+  <>
+    <section className="future-plan-intro section">
+      <div className="container">
+        <h2>My Vision</h2>
+        <p>My future is rooted in a passion for automotive content creation and marketing. I'm eager to transition into car marketing—specifically making and editing captivating video content for sports car garages and automotive brands. Working in a garage environment would provide invaluable hands-on experience, allowing me to immerse myself in the car culture while developing my skills in video production and marketing strategy.</p>
+
+        <p>The fitness and wellbeing sector taught me a valuable lesson: I thrive when I have creative freedom. Being constrained by existing company frameworks and templates left me wanting more creative autonomy. In the automotive world, I see endless possibilities for innovation and trending content. I'm committed to staying ahead of social media trends, creating content that resonates with audiences and captures the energy of the automotive community.</p>
+
+        <p>I'm open to internship or placement opportunities in car garages while completing my degree. This hands-on experience would be instrumental in building the portfolio and expertise I need. But my ambitions extend far beyond the garage. My ultimate goal is to work with supercars and race cars—whether that's being part of a professional race team, following and marketing for an influencer, or creating content around high-performance vehicles.</p>
+
+        <p>Beyond content creation, I aspire to become a race car driver and motorbike racer myself. Imagine vlogging my own racing experiences, building an engaged audience, and securing brand partnerships around that authentic journey. These sponsorships and brand deals would eventually enable me to own my dream cars: a Ferrari F8 Tributo and a Lamborghini Gallardo. This isn't just a career goal—it's a lifestyle vision where passion, content creation, and motorsport converge.</p>
+
+        <p>The path forward is clear: garage experience → automotive content creation → race team involvement or influencer partnerships → personal racing career → owning and showcasing supercars. Every step builds toward that ultimate vision of turning my passion for cars into a thriving career and lifestyle.</p>
+      </div>
+    </section>
+  </>
+)}{project.id === 'ferrari' && (
+        <>
+          <section className="case-studies-section section">
+            <div className="container">
+              <h2>Case Study Materials</h2>
+              <div className="case-studies-grid">
+                <a href="https://iadt-my.sharepoint.com/:p:/g/personal/n00233609_iadt_ie/IQDSkMF4bZHQS5gUGD36KrarAcR9pfPM9DN_LzqqLjt-zJQ?e=2uuDrW" target="_blank" rel="noopener noreferrer" className="case-study-card">
+                  <div className="case-study-icon">📊</div>
+                  <h3>Presentation</h3>
+                  <p>PowerPoint Case Study</p>
+                  <span className="case-study-link-arrow">View →</span>
+                </a>
+                <a href="https://iadt-my.sharepoint.com/:v:/g/personal/n00233609_iadt_ie/IQB_ErYtPKYEQLz3kaxESyjDAa-03nI2ze8VeiZu0yUWITI" target="_blank" rel="noopener noreferrer" className="case-study-card">
+                  <div className="case-study-icon">🎙️</div>
+                  <h3>Podcast</h3>
+                  <p>Audio Analysis</p>
+                  <span className="case-study-link-arrow">Listen →</span>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section className="ferrari-story-section section">
+            <div className="container">
+              <h2>The Project Story</h2>
+              <p>This project was a true collaboration with Loris, Sam, and Michael, where we worked together seamlessly to produce a professional podcast and presentation. We had the privilege of recording in a fully equipped professional studio at college, complete with Rode microphones and a proper podcast setup that ensured high-quality audio throughout our production.</p>
+
+              <p>I was genuinely delighted when we received the Ferrari case study topic because I have a passion for cars, and the Ferrari F8 Tributo is my absolute favorite. It's a car I hope to own one day, so diving deep into its design, performance, and legacy was not just a project requirement—it was a personal passion project. To make the presentation even more special, I wore a pink Ferrari bomber jacket over formal wear (dress shirt and trousers) to my presentation. The fake Ferrari board was delighted with the outfit choice, and it added a memorable personal touch to our case study delivery.</p>
+            </div>
+          </section>
+        </>
+      )}
+
       <section className="project-cta section">
         <div className="container">
           <h2>Interested in working together?</h2>

@@ -6,7 +6,7 @@ export const projects = [
     bgColor: 'rgb(112, 113, 161)',
     textColor: '#000',
     year: '2023 - present',
-    image: 'https://i.imgur.com/VAJsDEB.png',
+    image: 'https://github.com/natethedog04-afk/portfolio/blob/main/nathan-photo.png?raw=true',
     fullDescription: 'As a digital marketing student, building a strong professional network and personal brand can be challenging in an increasingly competitive landscape. Many students struggle to showcase their skills, gain visibility, and connect with industry professionals early in their careers. Without the right platform, opportunities for collaboration, mentorship, and career growth can be limited, making it harder to stand out and develop a clear professional identity. Traditional methods of networking often lack scalability, leaving students unsure of how to effectively position themselves within the digital marketing industry.'
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
     bgColor: 'rgb(128, 0, 128)',
     textColor: '#fff',
     year: '2023',
-    image: null,
+    image: 'https://github.com/natethedog04-afk/portfolio/blob/main/project-2.jpg.png?raw=true',
     fullDescription: 'Professional video recording and editing projects showcasing my technical skills in multimedia production. This includes footage capture, post-production editing, color grading, and final output optimization for various platforms.'
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     bgColor: 'rgb(255, 221, 0)',
     textColor: 'rgb(61, 59, 84)',
     year: '2024',
-    image: null,
+    image: 'https://github.com/natethedog04-afk/portfolio/blob/main/project-4.jpg?raw=true',
     fullDescription: 'An exciting upcoming project that represents my vision for the future. This includes innovative concepts and strategic planning for new ventures and collaborative opportunities that will shape my career trajectory.'
   }
 ]
