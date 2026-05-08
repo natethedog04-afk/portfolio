@@ -493,4 +493,35 @@
   .ferrari-story-section p {
     font-size: 15px;
   }
+}.future-plan-intro {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.future-plan-intro h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.future-plan-intro p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+  margin-bottom: 25px;
+  max-width: 850px;
+}
+
+.future-plan-intro p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .future-plan-intro h2 {
+    font-size: 28px;
+  }
+
+  .future-plan-intro p {
+    font-size: 15px;
+  }
 }
