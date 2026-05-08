@@ -1,4 +1,4 @@
-# Nathan  Lawless  Portfolio
+# Nathan Lawless Portfolio
 
 A modern, responsive portfolio website built with React and Vite.
 
