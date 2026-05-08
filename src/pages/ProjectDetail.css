@@ -366,6 +366,28 @@
   color: rgba(255, 255, 255, 1);
 }
 
+.ferrari-story-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ferrari-story-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.ferrari-story-section p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+  margin-bottom: 25px;
+  max-width: 850px;
+}
+
+.ferrari-story-section p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
   .project-hero {
     padding: 60px 0;
@@ -462,5 +484,13 @@
 
   .case-study-card h3 {
     font-size: 20px;
+  }
+
+  .ferrari-story-section h2 {
+    font-size: 28px;
+  }
+
+  .ferrari-story-section p {
+    font-size: 15px;
   }
 }
