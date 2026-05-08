@@ -150,7 +150,24 @@ export default function ProjectDetail() {
         </>
       )}
 
-      {project.id === 'ferrari' && (
+      {project.id === 'future-plan' && (
+  <>
+    <section className="future-plan-intro section">
+      <div className="container">
+        <h2>My Vision</h2>
+        <p>My future is rooted in a passion for automotive content creation and marketing. I'm eager to transition into car marketing—specifically making and editing captivating video content for sports car garages and automotive brands. Working in a garage environment would provide invaluable hands-on experience, allowing me to immerse myself in the car culture while developing my skills in video production and marketing strategy.</p>
+
+        <p>The fitness and wellbeing sector taught me a valuable lesson: I thrive when I have creative freedom. Being constrained by existing company frameworks and templates left me wanting more creative autonomy. In the automotive world, I see endless possibilities for innovation and trending content. I'm committed to staying ahead of social media trends, creating content that resonates with audiences and captures the energy of the automotive community.</p>
+
+        <p>I'm open to internship or placement opportunities in car garages while completing my degree. This hands-on experience would be instrumental in building the portfolio and expertise I need. But my ambitions extend far beyond the garage. My ultimate goal is to work with supercars and race cars—whether that's being part of a professional race team, following and marketing for an influencer, or creating content around high-performance vehicles.</p>
+
+        <p>Beyond content creation, I aspire to become a race car driver and motorbike racer myself. Imagine vlogging my own racing experiences, building an engaged audience, and securing brand partnerships around that authentic journey. These sponsorships and brand deals would eventually enable me to own my dream cars: a Ferrari F8 Tributo and a Lamborghini Gallardo. This isn't just a career goal—it's a lifestyle vision where passion, content creation, and motorsport converge.</p>
+
+        <p>The path forward is clear: garage experience → automotive content creation → race team involvement or influencer partnerships → personal racing career → owning and showcasing supercars. Every step builds toward that ultimate vision of turning my passion for cars into a thriving career and lifestyle.</p>
+      </div>
+    </section>
+  </>
+)}{project.id === 'ferrari' && (
         <>
           <section className="case-studies-section section">
             <div className="container">
