@@ -151,33 +151,30 @@ export default function ProjectDetail() {
       )}
 
       {project.id === 'ferrari' && (
-        <section className="case-studies-section section">
-          <div className="container">
-            <h2>Case Study Materials</h2>
-            <div className="case-studies-grid">
-              <a href="https://iadt-my.sharepoint.com/:p:/g/personal/n00233609_iadt_ie/IQDSkMF4bZHQS5gUGD36KrarAcR9pfPM9DN_LzqqLjt-zJQ?e=2uuDrW" target="_blank" rel="noopener noreferrer" className="case-study-card">
-                <div className="case-study-icon">📊</div>
-                <h3>Presentation</h3>
-                <p>PowerPoint Case Study</p>
-                <span className="case-study-link-arrow">View →</span>
-              </a>
-              <a href="https://iadt-my.sharepoint.com/:v:/g/personal/n00233609_iadt_ie/IQB_ErYtPKYEQLz3kaxESyjDAa-03nI2ze8VeiZu0yUWITI" target="_blank" rel="noopener noreferrer" className="case-study-card">
-                <div className="case-study-icon">🎙️</div>
-                <h3>Podcast</h3>
-                <p>Audio Analysis</p>
-                <span className="case-study-link-arrow">Listen →</span>
-              </a>
+        <>
+          <section className="case-studies-section section">
+            <div className="container">
+              <h2>Case Study Materials</h2>
+              <div className="case-studies-grid">
+                <a href="https://iadt-my.sharepoint.com/:p:/g/personal/n00233609_iadt_ie/IQDSkMF4bZHQS5gUGD36KrarAcR9pfPM9DN_LzqqLjt-zJQ?e=2uuDrW" target="_blank" rel="noopener noreferrer" className="case-study-card">
+                  <div className="case-study-icon">📊</div>
+                  <h3>Presentation</h3>
+                  <p>PowerPoint Case Study</p>
+                  <span className="case-study-link-arrow">View →</span>
+                </a>
+                <a href="https://iadt-my.sharepoint.com/:v:/g/personal/n00233609_iadt_ie/IQB_ErYtPKYEQLz3kaxESyjDAa-03nI2ze8VeiZu0yUWITI" target="_blank" rel="noopener noreferrer" className="case-study-card">
+                  <div className="case-study-icon">🎙️</div>
+                  <h3>Podcast</h3>
+                  <p>Audio Analysis</p>
+                  <span className="case-study-link-arrow">Listen →</span>
+                </a>
+              </div>
             </div>
-          </div>
-        </section>
-      )}
+          </section>
 
-      <section className="project-cta section">
-        <div className="container">
-          <h2>Interested in working together?</h2>
-          <Link to="/contact" className="cta-button">Get in touch</Link>
-        </div>
-      </section>
-    </main>
-  )
-}
+          <section className="ferrari-story-section section">
+            <div className="container">
+              <h2>The Project Story</h2>
+              <p>This project was a true collaboration with Loris, Sam, and Michael, where we worked together seamlessly to produce a professional podcast and presentation. We had the privilege of recording in a fully equipped professional studio at college, complete with Rode microphones and a proper podcast setup that ensured high-quality audio throughout our production.</p>
+
+              <p>I was genuinely delighted when we received the Ferrari case study topic
