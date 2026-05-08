@@ -241,6 +241,66 @@
 
 .video-wrapper iframe {
   display: block;
+}.production-process {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.production-process h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.process-content p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+
+.instagram-card-section {
+  margin-top: 40px;
+}
+
+.instagram-card {
+  display: inline-block;
+  padding: 30px 40px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.instagram-card:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+.instagram-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.instagram-content p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 12px;
+}
+
+.instagram-link-arrow {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
+}
+
+.instagram-card:hover .instagram-link-arrow {
+  color: rgba(255, 255, 255, 1);
 }
 
 @media (max-width: 768px) {
@@ -272,4 +332,18 @@
   .articles-grid {
     grid-template-columns: 1fr;
   }
-}
+}.production-process h2 {
+    font-size: 28px;
+  }
+
+  .process-content p {
+    font-size: 15px;
+  }
+
+  .instagram-card {
+    padding: 20px 30px;
+  }
+
+  .instagram-content h3 {
+    font-size: 20px;
+  }
