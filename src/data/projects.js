@@ -16,7 +16,7 @@ export const projects = [
     bgColor: 'rgb(128, 0, 128)',
     textColor: '#fff',
     year: '2023',
-    image: null,
+    image: 'https://github.com/natethedog04-afk/portfolio/blob/main/project-2.jpg.png?raw=true',
     fullDescription: 'Professional video recording and editing projects showcasing my technical skills in multimedia production. This includes footage capture, post-production editing, color grading, and final output optimization for various platforms.'
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     bgColor: 'rgb(255, 221, 0)',
     textColor: 'rgb(61, 59, 84)',
     year: '2024',
-    image: null,
+    image: 'https://github.com/natethedog04-afk/portfolio/blob/main/project-4.jpg?raw=true',
     fullDescription: 'An exciting upcoming project that represents my vision for the future. This includes innovative concepts and strategic planning for new ventures and collaborative opportunities that will shape my career trajectory.'
   }
 ]
