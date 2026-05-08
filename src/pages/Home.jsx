@@ -15,6 +15,14 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="home-bio section">
+        <div className="container">
+          <p className="bio-text">
+            I am a digital marketing graduate of IADT. I have really enjoyed the course and made lifelong friends along the way.
+          </p>
+        </div>
+      </section>
+
       <section className="home-projects section">
         <div className="container">
           <h2 className="home-section-title">Featured Projects</h2>
