@@ -111,6 +111,27 @@ export default function ProjectDetail() {
         </>
       )}
 
+      {project.id === 'work-experience' && (
+        <section className="production-process section">
+          <div className="container">
+            <h2>Production Process</h2>
+            <div className="process-content">
+              <p>This project involved comprehensive video production and editing. We utilized professional DJI cameras and drones to capture dynamic aerial shots and cinematic footage, providing unique perspectives and high-quality visuals. All raw footage was then meticulously edited using CapCut, allowing for precise color grading, transitions, and effects to create a polished final product that captures the energy and essence of the content.</p>
+
+              <div className="instagram-card-section">
+                <a href="https://www.instagram.com/_kassdiarra/" target="_blank" rel="noopener noreferrer" className="instagram-card">
+                  <div className="instagram-content">
+                    <h3>@_kassdiarra</h3>
+                    <p>Instagram Profile</p>
+                    <span className="instagram-link-arrow">Visit Profile →</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="project-cta section">
         <div className="container">
           <h2>Interested in working together?</h2>
