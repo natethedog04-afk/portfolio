@@ -118,7 +118,7 @@
   transform: translateY(-2px);
 }
 
-@media (max-width: 768px) {.linkedin-articles {
+.linkedin-articles {
   background-color: rgba(0, 0, 0, 0.5);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -149,6 +149,9 @@
   border-radius: 8px;
   padding: 30px;
   transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .article-card:hover {
@@ -183,30 +186,6 @@
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   letter-spacing: 0.3px;
-}.articles-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .redbull-content {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .redbull-section h2 {
-    font-size: 28px;
-  }
-
-  .video-wrapper {
-    width: 100%;
-  }
-
-  .video-wrapper iframe {
-    height: 250px;
-  }.article-card {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  display: block;
 }
 
 .redbull-section {
@@ -241,7 +220,9 @@
 
 .video-wrapper iframe {
   display: block;
-}.production-process {
+}
+
+.production-process {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -262,10 +243,13 @@
 
 .instagram-card-section {
   margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .instagram-card {
-  display: inline-block;
+  display: block;
   padding: 30px 40px;
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -303,6 +287,85 @@
   color: rgba(255, 255, 255, 1);
 }
 
+.raw-gyms-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.raw-gyms-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.raw-gyms-section p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+  max-width: 800px;
+}
+
+.case-studies-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.case-studies-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.case-studies-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.case-study-card {
+  display: block;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.case-study-card:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+.case-study-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.case-study-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.case-study-card p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 15px;
+}
+
+.case-study-link-arrow {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
+}
+
+.case-study-card:hover .case-study-link-arrow {
+  color: rgba(255, 255, 255, 1);
+}
+
 @media (max-width: 768px) {
   .project-hero {
     padding: 60px 0;
@@ -332,12 +395,35 @@
   .articles-grid {
     grid-template-columns: 1fr;
   }
-}.production-process h2 {
+
+  .redbull-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .redbull-section h2 {
+    font-size: 28px;
+  }
+
+  .video-wrapper {
+    width: 100%;
+  }
+
+  .video-wrapper iframe {
+    height: 250px;
+  }
+
+  .production-process h2 {
     font-size: 28px;
   }
 
   .process-content p {
     font-size: 15px;
+  }
+
+  .instagram-card-section {
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
 
   .instagram-card {
@@ -347,3 +433,34 @@
   .instagram-content h3 {
     font-size: 20px;
   }
+
+  .raw-gyms-section h2 {
+    font-size: 28px;
+  }
+
+  .raw-gyms-section p {
+    font-size: 15px;
+  }
+
+  .case-studies-section h2 {
+    font-size: 28px;
+  }
+
+  .case-studies-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .case-study-card {
+    padding: 30px;
+  }
+
+  .case-study-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .case-study-card h3 {
+    font-size: 20px;
+  }
+}
