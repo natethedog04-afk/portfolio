@@ -58,7 +58,9 @@ export default function ProjectDetail() {
             </div>
           </div>
         </div>
-      </section>{project.id === 'digital-footprint' && (
+      </section>
+
+      {project.id === 'digital-footprint' && (
         <>
           <section className="linkedin-articles section">
             <div className="container">
@@ -112,21 +114,59 @@ export default function ProjectDetail() {
       )}
 
       {project.id === 'work-experience' && (
-        <section className="production-process section">
-          <div className="container">
-            <h2>Production Process</h2>
-            <div className="process-content">
-              <p>This project involved comprehensive video production and editing. We utilized professional DJI cameras and drones to capture dynamic aerial shots and cinematic footage, providing unique perspectives and high-quality visuals. All raw footage was then meticulously edited using CapCut, allowing for precise color grading, transitions, and effects to create a polished final product that captures the energy and essence of the content.</p>
+        <>
+          <section className="production-process section">
+            <div className="container">
+              <h2>Production Process</h2>
+              <div className="process-content">
+                <p>This project involved comprehensive video production and editing. We utilized professional DJI cameras and drones to capture dynamic aerial shots and cinematic footage, providing unique perspectives and high-quality visuals. All raw footage was then meticulously edited using CapCut, allowing for precise color grading, transitions, and effects to create a polished final product that captures the energy and essence of the content.</p>
 
-              <div className="instagram-card-section">
-                <a href="https://www.instagram.com/_kassdiarra/" target="_blank" rel="noopener noreferrer" className="instagram-card">
-                  <div className="instagram-content">
-                    <h3>@_kassdiarra</h3>
-                    <p>Instagram Profile</p>
-                    <span className="instagram-link-arrow">Visit Profile →</span>
-                  </div>
-                </a>
+                <div className="instagram-card-section">
+                  <a href="https://www.instagram.com/_kassdiarra/" target="_blank" rel="noopener noreferrer" className="instagram-card">
+                    <div className="instagram-content">
+                      <h3>@_kassdiarra</h3>
+                      <p>Instagram Profile</p>
+                      <span className="instagram-link-arrow">Visit Profile →</span>
+                    </div>
+                  </a>
+                  <a href="https://www.instagram.com/rawgymsdublin/" target="_blank" rel="noopener noreferrer" className="instagram-card">
+                    <div className="instagram-content">
+                      <h3>@rawgymsdublin</h3>
+                      <p>Instagram Profile</p>
+                      <span className="instagram-link-arrow">Visit Profile →</span>
+                    </div>
+                  </a>
+                </div>
               </div>
+            </div>
+          </section>
+
+          <section className="raw-gyms-section section">
+            <div className="container">
+              <h2>Raw Gyms Production</h2>
+              <p>I recorded and produced content showcasing personal trainers demonstrating exercises and providing training tips across multiple Raw Gyms locations. This included facilities in Donnybrook and Sandyford in Dublin, as well as The Fitness Habit in Monaghan, and Avena Leisure in Sligo. Beyond video production, I also contributed to renovations and maintenance efforts across all gym locations, combining technical filmmaking with hands-on facility support.</p>
+            </div>
+          </section>
+        </>
+      )}
+
+      {project.id === 'ferrari' && (
+        <section className="case-studies-section section">
+          <div className="container">
+            <h2>Case Study Materials</h2>
+            <div className="case-studies-grid">
+              <a href="https://iadt-my.sharepoint.com/:p:/g/personal/n00233609_iadt_ie/IQDSkMF4bZHQS5gUGD36KrarAcR9pfPM9DN_LzqqLjt-zJQ?e=2uuDrW" target="_blank" rel="noopener noreferrer" className="case-study-card">
+                <div className="case-study-icon">📊</div>
+                <h3>Presentation</h3>
+                <p>PowerPoint Case Study</p>
+                <span className="case-study-link-arrow">View →</span>
+              </a>
+              <a href="https://iadt-my.sharepoint.com/:v:/g/personal/n00233609_iadt_ie/IQB_ErYtPKYEQLz3kaxESyjDAa-03nI2ze8VeiZu0yUWITI" target="_blank" rel="noopener noreferrer" className="case-study-card">
+                <div className="case-study-icon">🎙️</div>
+                <h3>Podcast</h3>
+                <p>Audio Analysis</p>
+                <span className="case-study-link-arrow">Listen →</span>
+              </a>
             </div>
           </div>
         </section>
